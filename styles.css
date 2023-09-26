@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+}
+
+nav {
+  padding: 3% 8%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h1 span {
+  border-bottom: 2px solid hsl(153, 71%, 59%);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+button:hover,
+a:hover {
+  color: hsl(153, 71%, 59%);
+}
+
+.container {
+  padding: 3% 8%;
+}
+
+.description {
+  margin-top: 2rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  width: 50%;
+}
+
+.skills {
+  margin-top: 1.5rem;
+}
+
+.skills ul,
+.project ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+.skills ul li,
+.project ul li {
+  background-color: hsl(0, 0, 14%);
+  padding: 5px;
+  border: 1px solid hsl(153, 71%, 59%);
+  border-radius: 6px;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.project {
+  margin: 1rem 0;
+}
+
+.project:hover {
+  transform: scale(1.1);
+}
+
+.project-info h1 {
+  margin: 3% 0;
+}
+
+.project-info {
+  padding: 10px;
+}
+
+.project img {
+  max-width: 100%;
+}
+
+.project h3 {
+  margin-top: 0.5rem;
+}
+
+.project-links {
+  margin: 0.5rem 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-links a {
+  font-size: 1.1rem;
+  text-decoration: underline;
+}
+
+.contact-form form div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.contact-form form div label {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.contact-form form div input,
+.contact-form form div textarea {
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  border-radius: 6px;
+  background-color: hsl(153, 71%, 59%);
+  color: hsl(0, 0%, 100%);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.socials {
+  margin-top: 2rem;
+}
+
+.socials div {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 4%;
+  }
+
+  .nav-links {
+    margin-top: 1rem;
+  }
+
+  a {
+    font-size: 1.2rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .description {
+    margin-top: 2rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    width: 100%;
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .project:hover {
+    transform: none;
+  }
+}
