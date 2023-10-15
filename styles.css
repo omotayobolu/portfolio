@@ -11,6 +11,7 @@ body {
   font-size: 16px;
   background-color: hsl(0, 0%, 8%);
   color: hsl(0, 0%, 100%);
+  scroll-behavior: smooth;
 }
 
 nav {
@@ -178,11 +179,17 @@ a:hover {
   gap: 15px;
 }
 
-.socials div a svg:hover path {
+svg:hover path {
   fill: hsl(153, 71%, 59%);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
   .container {
     padding: 4%;
   }
@@ -209,9 +216,5 @@ a:hover {
   .projects {
     grid-template-columns: 1fr;
     gap: 25px;
-  }
-
-  .project:hover {
-    transform: none;
   }
 }
