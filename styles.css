@@ -187,15 +187,17 @@ svg:hover path {
   .projects {
     grid-template-columns: repeat(2, 1fr);
   }
+  .description {
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    width: 100%;
+  }
 }
 
 @media (max-width: 600px) {
   .container {
     padding: 4%;
-  }
-
-  .nav-links {
-    margin-top: 1rem;
   }
 
   a {
@@ -204,13 +206,6 @@ svg:hover path {
 
   h1 {
     font-size: 2rem;
-  }
-
-  .description {
-    margin-top: 2rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    width: 100%;
   }
 
   .projects {

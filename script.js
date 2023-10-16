@@ -43,11 +43,15 @@ function portfolioProjects() {
             <div class="project-info">
             <h3 class="name">${project.name}</h3>
             <ul>
-                ${project.tools.map(
-                  (skill) => `
-                  <li>${skill}</li>
+                ${project.tools
+                  .map(
+                    (skill) => `
+                  <li>
+                  ${skill}
+                  </li>
                   `
-                )}
+                  )
+                  .join("")}
             </ul>
             </div>
       </div>`
