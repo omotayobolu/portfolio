@@ -1,6 +1,14 @@
 const projects = [
   {
     id: 1,
+    image: "./assets/artsy.png",
+    name: "Artsy",
+    github: "https://github.com/omotayobolu/artsy",
+    live: "https://artsyphotography.vercel.app/",
+    tools: ["React JS", "Tailwind CSS", "Redux Toolkit", "Firebase"],
+  },
+  {
+    id: 2,
     image: "./assets/getlinked.png",
     name: "GetLinked Hackathon",
     github: "https://github.com/omotayobolu/getlinked",
@@ -8,7 +16,7 @@ const projects = [
     tools: ["Next JS", "Tailwind CSS"],
   },
   {
-    id: 2,
+    id: 3,
     image: "./assets/bookmark.png",
     name: "Bookmark landing page",
     github: "https://github.com/omotayobolu/bookmark-landing-page",
@@ -16,7 +24,7 @@ const projects = [
     tools: ["HTML", "CSS", "Javascript"],
   },
   {
-    id: 3,
+    id: 4,
     image: "./assets/countries.png",
     name: "Countries App",
     github: "https://github.com/omotayobolu/Countries",
@@ -24,22 +32,14 @@ const projects = [
     tools: ["React JS", "SASS"],
   },
   {
-    id: 4,
+    id: 5,
     image: "./assets/crappo.png",
-    name: "Crappo Cryptocurrency",
-    github: "https://github.com/omotayobolu/Countries",
+    name: "Crappo Cryptocurrency Landing Page",
+    github: "https://github.com/omotayobolu/crappo-cryptocurrency",
     live: "https://crappo-cryptocurrencyy.netlify.app/",
     tools: ["React JS", "SASS"],
   },
 
-  {
-    id: 5,
-    image: "./assets/artsy.png",
-    name: "Artsy",
-    github: "https://github.com/omotayobolu/artsy",
-    live: "https://artsy-omotayo.netlify.app/",
-    tools: ["React JS", "Tailwind CSS", "Redux Toolkit", "Firebase"],
-  },
   {
     id: 6,
     image: "./assets/image-gallery.png",
