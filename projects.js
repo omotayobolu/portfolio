@@ -1,6 +1,14 @@
 const projects = [
   {
     id: 1,
+    image: "./assets/timbu.png",
+    name: "Timbu store",
+    github: "https://github.com/omotayobolu/timbu-store",
+    live: "https://hng-task-timbu.vercel.app/",
+    tools: ["NextJS", "TypeScript", "Tailwind CSS"],
+  },
+  {
+    id: 1,
     image: "./assets/artsy.png",
     name: "Artsy",
     github: "https://github.com/omotayobolu/artsy",
@@ -31,14 +39,14 @@ const projects = [
     live: "https://countries-app-omotayo.netlify.app/",
     tools: ["React JS", "SASS"],
   },
-  {
-    id: 5,
-    image: "./assets/crappo.png",
-    name: "Crappo Cryptocurrency Landing Page",
-    github: "https://github.com/omotayobolu/crappo-cryptocurrency",
-    live: "https://crappo-cryptocurrencyy.netlify.app/",
-    tools: ["React JS", "SASS"],
-  },
+  // {
+  //   id: 5,
+  //   image: "./assets/crappo.png",
+  //   name: "Crappo Cryptocurrency Landing Page",
+  //   github: "https://github.com/omotayobolu/crappo-cryptocurrency",
+  //   live: "https://crappo-cryptocurrencyy.netlify.app/",
+  //   tools: ["React JS", "SASS"],
+  // },
 
   {
     id: 6,
@@ -56,14 +64,14 @@ const projects = [
     live: "https://quizzical-app-omotayo.netlify.app/",
     tools: ["React JS", "CSS"],
   },
-  {
-    id: 8,
-    image: "./assets/todo.png",
-    name: "ToDo App",
-    github: "https://github.com/omotayobolu/todo-app/",
-    live: "https://todo-app-omotayo.netlify.app/",
-    tools: ["React JS", "CSS"],
-  },
+  // {
+  //   id: 8,
+  //   image: "./assets/todo.png",
+  //   name: "ToDo App",
+  //   github: "https://github.com/omotayobolu/todo-app/",
+  //   live: "https://todo-app-omotayo.netlify.app/",
+  //   tools: ["React JS", "CSS"],
+  // },
 ];
 
 export default projects;
