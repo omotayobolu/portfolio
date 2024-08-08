@@ -4,7 +4,7 @@ const projects = [
     image: "./assets/timbu.png",
     name: "Timbu store",
     github: "https://github.com/omotayobolu/timbu-store",
-    live: "https://hng-task-timbu.vercel.app/",
+    live: "https://timbu-stores.vercel.app/",
     tools: ["NextJS", "TypeScript", "Tailwind CSS"],
   },
   {
