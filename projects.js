@@ -23,14 +23,14 @@ const projects = [
     live: "https://getlinked-taupe-seven.vercel.app/",
     tools: ["Next JS", "Tailwind CSS"],
   },
-  {
-    id: 4,
-    image: "./assets/bookmark.png",
-    name: "Bookmark landing page",
-    github: "https://github.com/omotayobolu/bookmark-landing-page",
-    live: "https://omotayobolu.github.io/bookmark-landing-page/",
-    tools: ["HTML", "CSS", "Javascript"],
-  },
+  // {
+  //   id: 4,
+  //   image: "./assets/bookmark.png",
+  //   name: "Bookmark landing page",
+  //   github: "https://github.com/omotayobolu/bookmark-landing-page",
+  //   live: "https://omotayobolu.github.io/bookmark-landing-page/",
+  //   tools: ["HTML", "CSS", "Javascript"],
+  // },
   {
     id: 5,
     image: "./assets/countries.png",
