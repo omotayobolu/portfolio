@@ -8,7 +8,7 @@ const projects = [
     tools: ["NextJS", "TypeScript", "Tailwind CSS"],
   },
   {
-    id: 1,
+    id: 2,
     image: "./assets/artsy.png",
     name: "Artsy",
     github: "https://github.com/omotayobolu/artsy",
@@ -16,7 +16,7 @@ const projects = [
     tools: ["React JS", "Tailwind CSS", "Redux Toolkit", "Firebase"],
   },
   {
-    id: 2,
+    id: 3,
     image: "./assets/getlinked.png",
     name: "GetLinked Hackathon",
     github: "https://github.com/omotayobolu/getlinked",
@@ -24,7 +24,7 @@ const projects = [
     tools: ["Next JS", "Tailwind CSS"],
   },
   {
-    id: 3,
+    id: 4,
     image: "./assets/bookmark.png",
     name: "Bookmark landing page",
     github: "https://github.com/omotayobolu/bookmark-landing-page",
@@ -32,7 +32,7 @@ const projects = [
     tools: ["HTML", "CSS", "Javascript"],
   },
   {
-    id: 4,
+    id: 5,
     image: "./assets/countries.png",
     name: "Countries App",
     github: "https://github.com/omotayobolu/Countries",
@@ -48,22 +48,22 @@ const projects = [
   //   tools: ["React JS", "SASS"],
   // },
 
-  {
-    id: 6,
-    image: "./assets/image-gallery.png",
-    name: "Image Gallery",
-    github: "https://github.com/omotayobolu/image-gallery",
-    live: "https://image-gallery-hngx3.netlify.app/",
-    tools: ["React JS", "Tailwind CSS", "Firebase"],
-  },
-  {
-    id: 7,
-    image: "./assets/quizzical.png",
-    name: "Quizzical App",
-    github: "https://github.com/omotayobolu/Quizzical-App/",
-    live: "https://quizzical-app-omotayo.netlify.app/",
-    tools: ["React JS", "CSS"],
-  },
+  // {
+  //   id: 6,
+  //   image: "./assets/image-gallery.png",
+  //   name: "Image Gallery",
+  //   github: "https://github.com/omotayobolu/image-gallery",
+  //   live: "https://image-gallery-hngx3.netlify.app/",
+  //   tools: ["React JS", "Tailwind CSS", "Firebase"],
+  // },
+  // {
+  //   id: 7,
+  //   image: "./assets/quizzical.png",
+  //   name: "Quizzical App",
+  //   github: "https://github.com/omotayobolu/Quizzical-App/",
+  //   live: "https://quizzical-app-omotayo.netlify.app/",
+  //   tools: ["React JS", "CSS"],
+  // },
   // {
   //   id: 8,
   //   image: "./assets/todo.png",
