@@ -1,19 +1,19 @@
 const projects = [
   {
     id: 1,
+    image: "./assets/artsy.png",
+    name: "Artsy",
+    github: "https://github.com/omotayobolu/artsy",
+    live: "https://artsyphotography.vercel.app/",
+    tools: ["React JS", "Tailwind CSS", "ExpressJS", "MongoDB"],
+  },
+  {
+    id: 2,
     image: "./assets/timbu.png",
     name: "Timbu store",
     github: "https://github.com/omotayobolu/timbu-store",
     live: "https://timbu-stores.vercel.app/",
     tools: ["NextJS", "TypeScript", "Tailwind CSS"],
-  },
-  {
-    id: 2,
-    image: "./assets/artsy.png",
-    name: "Artsy",
-    github: "https://github.com/omotayobolu/artsy",
-    live: "https://artsyphotography.vercel.app/",
-    tools: ["React JS", "Tailwind CSS", "Redux Toolkit", "Firebase"],
   },
   {
     id: 3,
