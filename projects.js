@@ -9,6 +9,14 @@ const projects = [
   },
   {
     id: 2,
+    image: "./assets/link-sharing.png",
+    name: "Link Sharing App",
+    github: "https://github.com/omotayobolu/link-sharing",
+    live: "https://link-sharing-five.vercel.app/",
+    tools: ["NextJS", "Tailwind CSS", "Prisma", "PostgreSQL"],
+  },
+  {
+    id: 3,
     image: "./assets/timbu.png",
     name: "Timbu store",
     github: "https://github.com/omotayobolu/timbu-store",
@@ -16,7 +24,7 @@ const projects = [
     tools: ["NextJS", "TypeScript", "Tailwind CSS"],
   },
   {
-    id: 3,
+    id: 4,
     image: "./assets/getlinked.png",
     name: "GetLinked Hackathon",
     github: "https://github.com/omotayobolu/getlinked",
@@ -33,20 +41,20 @@ const projects = [
   // },
   {
     id: 5,
+    image: "./assets/crappo.png",
+    name: "Crappo Cryptocurrency Landing Page",
+    github: "https://github.com/omotayobolu/crappo-cryptocurrency",
+    live: "https://crappo-cryptocurrencyy.netlify.app/",
+    tools: ["React JS", "SASS"],
+  },
+  {
+    id: 6,
     image: "./assets/countries.png",
     name: "Countries App",
     github: "https://github.com/omotayobolu/Countries",
     live: "https://countries-app-omotayo.netlify.app/",
     tools: ["React JS", "SASS"],
   },
-  // {
-  //   id: 5,
-  //   image: "./assets/crappo.png",
-  //   name: "Crappo Cryptocurrency Landing Page",
-  //   github: "https://github.com/omotayobolu/crappo-cryptocurrency",
-  //   live: "https://crappo-cryptocurrencyy.netlify.app/",
-  //   tools: ["React JS", "SASS"],
-  // },
 
   // {
   //   id: 6,
